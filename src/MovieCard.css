@@ -1,0 +1,37 @@
+
+@media (max-width: 480px) {
+    .postercard{
+        width: 30% !important;
+    }
+    .postercard:nth-child(3n+2){
+       margin:0 1rem 1.5rem 1rem
+      }
+    .poster img {
+        width: 100% !important;
+    }
+  }
+
+.postercard {
+    width: 16rem;
+    margin-bottom: 2rem;
+}
+
+.poster img {
+    width: 16rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.title {
+    font-family: Titillium Web;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ffffff;
+}
